@@ -27,7 +27,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.1, ease: "easeOut" }}
               className=" text-[32px] lg:text-[64px] font-bold leading-tight mb-6"
             >
-              Fastest & secure platform ro invest in crypto
+              Fastest & secure platform to REKT in crypto
             </motion.h1>
             <motion.p
               initial={{ y: -100, opacity: 0 }}

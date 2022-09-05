@@ -5,6 +5,7 @@ import NavMobile from "./components/NavMobile";
 import Stats from "./components/Stats";
 import Why from "./components/Why";
 import { motion, AnimatePresence } from "framer-motion";
+import Calculate from "./components/Calculate";
 
 function App() {
   const [navMobile, setNavMobile] = useState(false);
@@ -36,6 +37,7 @@ function App() {
       </div>
       <Stats />
       <Why />
+      <Calculate/>
       <div className="h-[2000px]"></div>
     </div>
   );

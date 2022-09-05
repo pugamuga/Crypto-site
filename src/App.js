@@ -1,7 +1,11 @@
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+
 function App() {
   return (
-    <div>
-      <div></div>
+    <div className=" font-primary overflow-hidden">
+      <Header/>
+      <Hero/>
     </div>
   );
 }

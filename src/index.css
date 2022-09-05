@@ -1,5 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-darkblue text-white leading-normal;
+  }
+  .h3 {
+    @apply text-[22px] lg:text-[32px] font-bold;
+  }
+  .btn {
+    @apply bg-blue h-[60px] px-4 rounded-full hover:bg-blue-hover transition flex items-center text-lg font-medium outline-none;
+  }
+  .section {
+    @apply py-12 lg:py-24;
+  }
+  .section-title {
+    @apply text-2xl lg:text-[40px] font-bold leading-normal mb-6;
+  }
+  .section-subtitle {
+    @apply mt-6 mb-8 text-gray;
+  }
+  .input,
+  .select {
+    @apply outline-none w-full border-b border-gray text-darkblue h-[38px] text-xl;
+  }
+  .input {
+    @apply lg:max-w-[410px] bg-transparent;
+  }
+  .select {
+    @apply lg:max-w-[200px] cursor-pointer;
+  }
+}

@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply bg-darkblue text-white leading-normal;
+    @apply bg-darkblue text-white leading-normal scrollbar-hide;
   }
   .h3 {
     @apply text-[22px] lg:text-[32px] font-bold;

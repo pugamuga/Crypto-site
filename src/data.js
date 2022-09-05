@@ -1,4 +1,4 @@
-import BitconImg from "./assets/bitcon.png";
+import BitconImg from "./assets/bitcoin.png";
 import EthereumImg from "./assets/ethereum.png";
 import LitecoinImg from "./assets/litecoin.png";
 

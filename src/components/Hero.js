@@ -24,7 +24,7 @@ const Hero = () => {
             <motion.h1
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
+              transition={{ duration: 1, delay: 0.1, ease: "easeOut" }}
               className=" text-[32px] lg:text-[64px] font-bold leading-tight mb-6"
             >
               Fastest & secure platform ro invest in crypto
@@ -32,7 +32,7 @@ const Hero = () => {
             <motion.p
               initial={{ y: -100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
+              transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
               className="max-w-[440px] leading-relaxed mb-8"
             >
               Buy and sell cryptocurrencies, trusted by 10M wallets with over
@@ -41,7 +41,7 @@ const Hero = () => {
             <motion.div
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.6, ease: "easeOut" }}
+              transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
             >
               <button className="btn gap-x-6 text-sm lg:text-base pl-6 lg:h-16">
                 Try for free

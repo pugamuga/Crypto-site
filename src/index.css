@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply bg-violet-300 text-white leading-normal scrollbar-hide;
+    @apply  text-white leading-normal scrollbar-hide;
   }
   .bg-circle{
     @apply rounded-full scale-100 hover:scale-[110%] hover:shadow-2xl hover:shadow-white/50 transition-all duration-1000
